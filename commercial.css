@@ -236,8 +236,12 @@ opacity: 1;
 
   /* media query starts here */
   @media only screen and (max-width:850px) {
-    
-/* project starts here */
+      
+  .carousel-item .d-block {
+    height: 300px;
+  }
+  
+  /* project starts here */
 .ssect div {
   margin-left: 50px;
 }

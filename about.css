@@ -349,6 +349,11 @@ border: none;
 /* media query starts here */
 @media only screen and (max-width:850px) {
 
+   
+  .carousel-item .d-block {
+    height: 300px;
+  }
+
   /* about us starts here */
 .aboutus main {
   flex-direction: column;

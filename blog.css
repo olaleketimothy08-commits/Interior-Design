@@ -205,6 +205,10 @@ border: none;
 
   /* media query starts here */
 @media only screen and (max-width:850px) {
+   
+  .carousel-item .d-block {
+    height: 300px;
+  }
 /* header starts here */
 .grid-container {
   grid-template-columns: repeat(1,1fr);

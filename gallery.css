@@ -180,8 +180,14 @@ div h1 {
 
   /* media query starts here */
 @media only screen and (max-width:850px) {
-  /* gallery starts here */
+  
 
+  
+  .carousel-item .d-block {
+    height: 300px;
+  }
+
+  /* gallery starts here */
 .grid-container {
   grid-template-columns: repeat(1, 1fr);
 }

@@ -187,6 +187,10 @@
 /* media query */
 @media only screen and (max-width:850px) {
 
+  .carousel-item .d-block {
+    height: 300px;
+  }
+
   /* Exceptional Interior Design Services starts here*/
   .main-section main {
     flex-direction: column;
