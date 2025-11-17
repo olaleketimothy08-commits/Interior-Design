@@ -1,0 +1,249 @@
+/* navbar starts here */
+.navbar-brand{
+    font-weight: bold;
+    /* font-size: 48px; */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .d-flex{
+    margin-left: 30px;
+} */
+
+.nav-link{
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.navbar .nav-item button {
+border: none;
+ padding: 25px;
+  background-color: rgb(39, 150, 37);
+  background: none;
+  color: rgb(110, 180, 100);
+  font-size: 25px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+/* navbar ends here */
+
+/* section starts here */
+
+.carousel-item .carousel-caption h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-item .carousel-caption p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+.carousel-caption a {
+  text-decoration: none;
+}
+/* section ends here */
+
+
+/* gallery starts here */
+div h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.grid-container div p {
+  width: 60%;
+  font-size: 14px;
+}
+
+.grid-container img {
+  margin-bottom: 20px;
+  width: 320px;
+  height: 260px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.1s;
+}
+
+.grid-container img:hover {
+  opacity: 1.2;
+}
+
+.btn {
+  margin-left: 550px;
+}
+.btn button {
+  border: none;
+  background-color: white;
+}
+
+.btn button a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+/* gallery ends hhere */
+
+/* footer starts here */
+
+  .f1 {
+    background-image: url(images/albero-furniture-bratislava-hFO2AyjevFc-unsplash.jpg);
+    background-repeat: no-repeat;
+     background-size: cover ;
+    background-position: center;
+     height: 70vh;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+
+  .f1 main {
+    display: flex;
+  }
+
+  .f1 main img {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 100px;
+    height:100px;
+  }
+
+  .f1 main div ul li {  font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    list-style: none;
+    color: white; 
+    /* padding-left: 10px; */
+  }
+
+  .f1 main div ul .a3{
+    margin-top: 40px;
+  }
+
+  .f1 main div ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .f1 main div .a1 {
+    color:rgb(58, 124, 245);
+    margin-left: 10px;
+  }
+
+  .f1 .m3 {
+    margin-top: -50px;
+  }
+
+  .f1 .m3 div .a2 {
+    margin-left: 900px;
+    font-size: 60px;
+    margin-top: -20px;
+  }
+
+  .f1 .m3 div a {
+    margin-top: -50px;
+    font-size: 60px;
+  }
+
+  .f1 div p {
+    margin-left: 900px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    width: 20%;
+    color: white;
+    cursor: pointer;
+  }
+  /* footer ends here */
+
+
+  /* media query starts here */
+@media only screen and (max-width:850px) {
+  /* gallery starts here */
+
+.grid-container {
+  grid-template-columns: repeat(1, 1fr);
+}
+  
+  /* footer starts here */
+
+  .f1 {
+    height: 120vh;
+  }
+ .f1 main {
+  flex-direction: column;
+}
+
+.f1 main img {
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.f1 main div ul .a3 {
+  margin-top: 40px;
+}
+
+.f1 main div ul li a {
+  text-decoration: none;
+  color: rgb(14, 12, 12);
+  font-weight: bold;
+}
+
+.f1 main div .a1 {
+  color: rgb(58, 124, 245);
+  margin-left: 10px;
+}
+
+.f1 .m3 {
+  margin-top: -50px;
+}
+
+.f1 .m3 div .a2 {
+  margin-left: 900px;
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.f1 .m3 div a {
+  margin-top: -50px;
+  font-size: 60px;
+}
+
+.f1 .m3 .a2 {
+  display: none;
+}
+
+.f1 .m3 a {
+  display: none;
+}
+
+.f1 div p {
+  margin-top: 50px;
+margin-left: 70px;
+width: 70%;
+}
+}
+/* footer ends here */

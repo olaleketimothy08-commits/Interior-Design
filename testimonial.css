@@ -1,0 +1,303 @@
+/* navbar starts here */
+.navbar-brand {
+  font-weight: bold;
+  /* font-size: 48px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .d-flex{
+    margin-left: 30px;
+} */
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar .nav-item button {
+border: none;
+ padding: 25px;
+  background-color: rgb(39, 150, 37);
+  background: none;
+  color: rgb(110, 180, 100);
+  font-size: 25px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+/* navbar ends here */
+
+/* section starts here */
+
+.carousel-item .carousel-caption h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.carousel-item .carousel-caption p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 24px;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+}
+
+/* section ends here */
+
+/* feedback starts here */
+
+.header {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  cursor: pointer;
+
+}
+
+.header .h {
+  font-size: 30px;
+  padding-top: 20px;
+  margin-left: 20px;
+  color: blue;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header .pp {
+  margin-left: 20px;
+  text-align: center;
+  color: black
+}
+
+.header main {
+  display: flex;
+  margin-top: 30px;
+}
+
+.header main div {
+  background-color: white;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.header main div .imgh {
+  width: 150px;
+  height: 150px;
+}
+
+
+.header main div p {
+  width: 100%;
+}
+
+/* feedback ends here */
+
+/* figure starts here */
+.figg {
+  margin-top: 40px;
+  background-image: url(images/jason-wang-8J49mtYWu7E-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 70%;
+  height: 50vh;
+  width: 100%;
+}
+
+.figg main {
+  display: flex;
+}
+
+.figg main div h2 {
+  color: blue;
+  margin-left: 30px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.figg main div p {
+  margin-left: 30px;
+}
+
+.figg div button {
+  border: none;
+  background-color: rgb(24, 117, 255);
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 40px;
+  margin-left: 600px;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.figg div button:hover {
+  opacity: 1.2;
+}
+
+.figg div button a {
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* figure ends here */
+
+/* footer starts here */
+
+.f1 {
+  background: rgb(28, 124, 49);
+  padding-bottom: 30px;
+}
+
+.f1 main {
+  display: flex;
+}
+
+.f1 main img {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.f1 main div ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  list-style: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.f1 main div ul .a3 {
+  margin-top: 40px;
+}
+
+.f1 main div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.f1 main div .a1 {
+  color: rgb(58, 124, 245);
+  margin-left: 10px;
+}
+
+.f1 .m3 {
+  margin-top: -50px;
+}
+
+.f1 .m3 div .a2 {
+  margin-left: 900px;
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.f1 .m3 div a {
+  margin-top: -50px;
+  font-size: 60px;
+}
+
+.f1 div p {
+  margin-left: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+
+/* footer ends here */
+
+/* media query starts here */
+@media only screen and (max-width:850px) {
+
+  
+/* feedback starts here */
+
+.header main {
+  flex-direction: column;
+}
+
+/* feedback ends here */
+
+/* figure starts here */
+
+.figg main {
+  flex-direction: column;
+}
+
+.figg div button {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+/* figure ends here */
+
+/* footer starts here */
+ .f1 main {
+  flex-direction: column;
+}
+
+.f1 main img {
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.f1 main div ul .a3 {
+  margin-top: 40px;
+}
+
+.f1 main div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.f1 main div .a1 {
+  color: rgb(58, 124, 245);
+  margin-left: 10px;
+}
+
+.f1 .m3 {
+  margin-top: -50px;
+}
+
+.f1 .m3 div .a2 {
+  margin-left: 900px;
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.f1 .m3 div a {
+  margin-top: -50px;
+  font-size: 60px;
+}
+
+.f1 .m3 .a2 {
+  display: none;
+}
+
+.f1 .m3 a {
+  display: none;
+}
+
+.f1 div p {
+  margin-top: 50px;
+margin-left: 70px;
+width: 70%;
+}
+}
+/* footer ends here */

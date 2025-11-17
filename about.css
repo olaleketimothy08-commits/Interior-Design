@@ -1,0 +1,501 @@
+/* navbar starts here */
+.navbar-brand {
+  font-weight: bold;
+  /* font-size: 48px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .d-flex{
+    margin-left: 30px;
+} */
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 18px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.navbar .nav-item button {
+border: none;
+ padding: 25px;
+  background-color: rgb(39, 150, 37);
+  background: none;
+  color: rgb(110, 180, 100);
+  font-size: 25px;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+/* navbar ends here */
+
+/* section starts here */
+
+.carousel-item .carousel-caption h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.carousel-item .carousel-caption p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+}
+
+/* section ends here */
+
+/* about us starts here */
+.aboutus main {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.aboutus main img {
+  width: 600px;
+  height: 400px
+}
+
+.aboutus main div {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.aboutus main div h1 {
+  color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.aboutus main div p {
+  width: 50%;
+}
+
+.aboutus .m5 {
+  margin-top: 40px;
+}
+
+.aboutus .m5 img {
+  margin-left: -40px;
+}
+
+.aboutus .m5 .div6 {
+  margin-left: 50px;
+}
+
+.aboutus .m5 .div6 p {
+  width: 70%;
+}
+
+/* abouts us ends here */
+
+/* services starts here */
+
+.figure h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+.figure main div p {
+  width: 30%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10px;
+}
+
+.figure main {
+  display: flex;
+  cursor: pointer;
+}
+
+.figure main div img {
+  width: 328px;
+  height: 250px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.figure main div img:hover {
+  opacity: 1.2;
+}
+
+.figure main div {
+  margin-top: 10px;
+  border-style: groove;
+  border-radius: 7px;
+  margin-left: 15px;
+}
+
+/* service ends here */
+
+/* meet team starts here */
+
+.sec h3 {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  font-size: 34px;
+  color: blue;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sec .main2 .div2 .div3 .div4 {
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.sec .main2 .div2 img {
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+  margin-left: 120px;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div2 h5 {
+  margin-left: 120px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div2 p {
+  margin-top: -10px;
+  margin-left: 120px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div3 img {
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.sec .main2 .div3 h5 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div3 p {
+  margin-top: -10px;
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div4 img {
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+
+}
+
+.sec .main2 .div4 h5 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div4 p {
+  margin-top: -10px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div4 img {
+  margin-left: 120px;
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div4 h5 {
+  margin-left: 120px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div4 p {
+  margin-top: -10px;
+  margin-left: 120px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div5 img {
+  border-radius: 7px;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div5 h5 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+
+}
+
+.sec .main3 .div5 p {
+  margin-top: -10px;
+  margin-left: 15px;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+/* meet team ends here */
+
+/* footer starts here */
+
+.f1 {
+  background: rgb(28, 124, 49);
+  padding-bottom: 30px;
+}
+
+.f1 main {
+  display: flex;
+}
+
+.f1 main img {
+  margin-left: 20px;
+  margin-top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.f1 main div ul li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 10px;
+  list-style: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.f1 main div ul .a3 {
+  margin-top: 40px;
+}
+
+.f1 main div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.f1 main div .a1 {
+  color: rgb(58, 124, 245);
+  margin-left: 10px;
+}
+
+.f1 .m3 {
+  margin-top: -50px;
+}
+
+.f1 .m3 div .a2 {
+  margin-left: 900px;
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.f1 .m3 div a {
+  margin-top: -50px;
+  font-size: 60px;
+}
+
+.f1 div .pp {
+  margin-left: 900px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+/* footer ends here */
+
+/* media query starts here */
+@media only screen and (max-width:850px) {
+
+  /* about us starts here */
+.aboutus main {
+  flex-direction: column;
+}
+
+.aboutus main img {
+  width: 330px;
+  height: 300px;
+  margin-left: -10px;
+}
+
+
+
+.aboutus main div h1 {
+ margin-left: -10px;
+}
+
+.aboutus main div p {
+  width: 90%;
+  margin-left: -10px;
+}
+
+.aboutus .m5 {
+ flex-direction: column-reverse;
+}
+
+.aboutus .m5 img {
+  margin-left: -10px;
+}
+
+.aboutus .m5 .div6 {
+  margin-left: 10px;
+}
+
+.aboutus .m5 .div6 p {
+  width: 90%;
+}
+/* abouts us ends here */
+
+/* services starts here */
+
+.figure h1 {
+  margin-left: 10px
+}
+
+.figure main { 
+  flex-direction: column;
+}
+
+
+.figure main div img {
+  width: 362px;
+  height: 250px;
+}
+/* service ends here */
+
+/* meet team starts here */
+
+
+.sec .main2  {
+  flex-direction: column;
+}
+
+.sec .main2 .div2 img {
+  margin-left: 20px;
+}
+
+.sec .main2 .div2 h5 {
+  margin-left: 20px;
+}
+
+.sec .main2 .div2 p {
+  margin-left: 20px;
+}
+
+
+
+.sec .main3 {
+  flex-direction: column;
+}
+
+.sec .main3 .div4 img{
+  margin-left: 20px;
+}
+
+.sec .main3 .div4 h5 {
+  margin-left: 20px;
+}
+
+.sec .main3 .div4 p {
+ margin-left: 20px;
+}
+
+/* meet team ends here */
+
+/* footer starts here */
+
+.f1 main {
+  flex-direction: column;
+}
+
+.f1 main img {
+  margin-left: 20px;
+
+}
+
+.f1 main div ul .a3 {
+  margin-top: 40px;
+}
+
+.f1 main div ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.f1 main div .a1 {
+  color: rgb(58, 124, 245);
+  margin-left: 10px;
+}
+
+.f1 .m3 {
+  margin-top: -50px;
+}
+
+.f1 .m3 div .a2 {
+  margin-left: 900px;
+  font-size: 60px;
+  margin-top: -20px;
+}
+
+.f1 .m3 div a {
+  margin-top: -50px;
+  font-size: 60px;
+}
+
+.f1 .m3 .a2 {
+  display: none;
+}
+
+.f1 .m3 a {
+  display: none;
+}
+
+.f1 div .pp {
+margin-left: 70px;
+width: 70%;
+}
+}
+/* footer ends here */
+
