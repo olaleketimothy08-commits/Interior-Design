@@ -20,16 +20,15 @@
   text-decoration: underline;
 }
 
-.nav-item button {
+.navbar .dark-mode button {
   border: none;
-  padding: 25px;
-  background-color: rgb(39, 150, 37);
   background: none;
   color: rgb(110, 180, 100);
   font-size: 25px;
 }
 
 .dark-mode{
+    margin-left: 190px;
   background-color: black;
   color: white;
 }
@@ -163,14 +162,14 @@
 }
 
 .f1 .m3 div .a2 {
-  margin-left: 900px;
-  font-size: 60px;
+  margin-left: 910px;
+  font-size: 40px;
   margin-top: -20px;
 }
 
 .f1 .m3 div a {
   margin-top: -50px;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .f1 div p {
@@ -182,10 +181,44 @@
   cursor: pointer;
 }
 
+.f1 .m {
+    display: none;
+  }
+
+  
+       #myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(28, 124, 49);
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: red 
+}
+
+
 /* footer ends here */
 
 /* media query */
 @media only screen and (max-width:850px) {
+
+  .navbar .dark-mode button {
+    margin-right: -900px;
+  }
+
+  .dark-mode{
+    margin-left: 10px;
+}
 
   .carousel-item .d-block {
     height: 300px;
@@ -217,6 +250,12 @@
   }
 
   /* INTERIOR DESIGN PROJECTS ENDS HERE */
+
+  /* figure starts here */
+  .figure main div img {
+    width: 370px;
+    height: 300px;
+  }
 
   /* footer starts here */
  .f1 main {
@@ -272,4 +311,18 @@
 margin-left: 70px;
 width: 70%;
 }
+
+.f1 .m {
+    display: block;
+  }
+
+.f1 .m .a {
+  margin-left: 60px;
+  font-size: 30px;
+}
+
+.f1 .m a {
+font-size: 30px;
+}
+
 }
