@@ -138,6 +138,13 @@ margin-top: 100px;
   }
 /* section ends here */
 
+/* map */
+figure img {
+  width: 800px;
+  margin-left: 280px;
+  margin-top: 20px;
+}
+
 /* project starts here */
 .s3 h3 {
   margin-top: 40px;
