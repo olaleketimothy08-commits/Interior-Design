@@ -351,6 +351,11 @@ figure img {
   }
 /* section ends here */
 
+/* map */
+figure img {
+  margin-left: 20px;
+  width: 300px;
+}
 /* project starts here */
 .s3 h3 {
  font-size: 30px;
