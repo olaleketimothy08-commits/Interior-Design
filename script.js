@@ -39,7 +39,7 @@ let errorMessage = document.getElementById("errorMessage");
   }
 
   if (subject.length <= 1  ){
-        errorMessage.innerHTML = "pelease write your code"
+        errorMessage.innerHTML = "pelease insert your location"
     return false;
   }
 

@@ -136,6 +136,11 @@ margin-top: 100px;
     margin-left: 30px;
     font-size: 30px;
   }
+
+  #errorMessage {
+    margin-left: -5px;
+    width: 100%;
+  }
 /* section ends here */
 
 /* map */
